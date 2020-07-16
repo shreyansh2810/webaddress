@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color:azure;
+  font-family: 'Merriweather', serif;
+
+}
+hr{
+  background-color: azure;
+  border-style: none;
+  border-top: dotted;
+  border-color: grey;
+  border-width: 4px;
+  width: 10%;
+  height: 0px;
+  margin: 60px auto 60px auto;
+}
+a{
+  color: #d92027;
+  margin:10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  color: #ffcbcb;
+}
+h1{
+  font-size:5.25rem ;
+  color:#fb7813 ;
+  margin:50px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color:#79d70f ;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #6a197d;
+}
+.intro{
+  width: 40%;
+  margin:auto;
+}
+.u{
+    text-decoration: underline;
+}
+.top-section{
+  background-color: cyan;
+  border:10px;
+  padding-top:100px;
+  position: relative;
+}
+.tc{
+  position: absolute;
+  right:300px;
+  top:50px;
+}
+.bc{
+  position:absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.middle-section{
+  margin:100px auto 100px auto;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height:2 ;
+}
+.img-comp{
+  margin-right: 30px;
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+}
+.img-bir{
+  margin-left: 30px;
+  border-radius: 50%;
+  float: right;
+}
+.prof{
+  border-radius: 50%;
+}
+.bottom-section{
+  background-color: #66bfbf;
+  padding-bottom: 16px;
+  padding-top: 30px;
+
+}
+.coprt{
+  color: #e8ead3;
+  font-size:.75rem;
+  padding:20px; 
+}
+.re{
+  width:40%;
+  margin:50px auto 100px;
+
+}
+.btn {
+	box-shadow: 0px 10px 14px -7px #daeddd;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #354c85;
+  margin:auto auto 100px auto;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
